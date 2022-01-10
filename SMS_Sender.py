@@ -5,7 +5,7 @@ message = input("Enter the message you want to send: ")
 
 url = "https://www.fast2sms.com/dev/bulkV2"
 
-querystring = {"authorization": "btYUDF3u4ljSPqaWZdhTMfJQr6oi8IRgx1pXzE27LeV5G9wsCcSGaP8AR4MvcextQwlu2YEpmJOV19Cq",
+querystring = {"authorization": "cfZLFlNtBv4k9267whUpyHqYCsobPSmn08zDTWexrKjgu15IEJN2K8zZUjWrYP1h5VCLwlkvcqganTDm",
                "message": f"{message}", "language": "english", "route": "q", "numbers": f"{reciver_num}"}
 
 headers = {
